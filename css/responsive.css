@@ -534,4 +534,13 @@
 }
 
 
-	
+@media (min-width: 1200px) {
+	.col-responsive{
+		display: block;
+	}
+}
+@media (max-width: 1199px) {
+	.col-responsive{
+		display: none;
+	}
+}
