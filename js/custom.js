@@ -61,7 +61,7 @@
 		/*	Countdown
 		/*----------------------------------------------------*/
 		
-		$("#clock").countdown("2022/08/06 20:00:00", function(event) {
+		$("#clock").countdown("2022/08/06 08:30:00", function(event) {
 			$(this).html( event.strftime(''     
 				+ '<div class="cbox-1 clearfix"><span class="cbox-1-digit">%D</span> <span class="cbox-1-txt">Ngày</span></div>'
 				+ '<div class="cbox-1 clearfix"><span class="cbox-1-digit">%H</span> <span class="cbox-1-txt">Giờ</span></div>'
